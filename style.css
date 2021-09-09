@@ -1,0 +1,68 @@
+h1::first-letter{
+    color: indigo;
+    font-size: 50px;
+
+}
+
+img{
+    width: 300px;
+    animation: move ;
+    transition:  all 0.5s;
+}
+
+
+
+img:hover{
+    transform: scale(1.08);
+    box-shadow: 10px 10px 5px hotpink;
+}
+
+form{
+    width: 300px;
+}
+
+fieldset input:focus{
+    background-color: saddlebrown;
+    outline: none;
+}
+
+
+input[type='checkbox']:checked{
+    height: 200px;
+    width: 200px;
+}
+
+input:nth-child(2){
+    background: yellowgreen;
+}
+
+
+input:disabled{
+    background: gray;
+}
+
+input[type='text']:enabled{
+    background: indianred;
+}
+
+/* ===================== EXTRAS  =================== */
+
+a:link{
+    background: orange;
+}
+
+a:active{
+    color: orangered;
+    font-size: 50px ;
+
+}
+
+
+li::marker { 
+    color: red; 
+    font-size: 50px;
+}
+
+p:lang(it) { 
+    background: yellow;
+}
